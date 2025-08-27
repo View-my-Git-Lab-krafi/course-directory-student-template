@@ -1,36 +1,3 @@
-## [1.2.1](https://github.com/yamadharma/course-directory-student-template/compare/v1.2.0...v1.2.1) (2025-07-02)
-
-
-### Bug Fixes
-
-* **scripts:** fix function names (- -> _) ([8c71784](https://github.com/yamadharma/course-directory-student-template/commit/8c71784d8d7efb6185fe8923270a3a5115434876))
-* **workflow:** fix workflow ([e7364fd](https://github.com/yamadharma/course-directory-student-template/commit/e7364fd50d975d388252e744afc00fc6eaa43dcd))
-
-
-### Features
-
-* **main:** add github workflow ([d3712e0](https://github.com/yamadharma/course-directory-student-template/commit/d3712e0f051f2b15257a9c45061f9a82952eb87e))
-
-
-
-# [1.2.0](https://github.com/yamadharma/course-directory-student-template/compare/v1.1.0...v1.2.0) (2025-07-01)
-
-
-### Features
-
-* **gitignore:** add ignore files for net-os-admin ([ac4ff0c](https://github.com/yamadharma/course-directory-student-template/commit/ac4ff0c2afeb23dbd51b2b33f39a4a467da5f7fb))
-
-
-
-# [1.1.0](https://github.com/yamadharma/course-directory-student-template/compare/v1.0.10...v1.1.0) (2025-05-14)
-
-
-### Bug Fixes
-
-* **main:** update templates ([8fce5ea](https://github.com/yamadharma/course-directory-student-template/commit/8fce5ea6551b7f58d7d75afc48a9fda10d401fd8))
-
-
-
 ## [1.0.10](https://github.com/yamadharma/course-directory-student-template/compare/v1.0.9...v1.0.10) (2025-02-10)
 
 

@@ -15,10 +15,10 @@ help:
 	@echo
 
 list:	## List of courses
-	@. ./template/config/script/list-courses
+	@./config/script/list-courses
 
 prepare:	## Generate directories structure
-	@. ./template/config/script/prepare
+	@./config/script/prepare
 	@touch prepare
 
 submodule:	## Update submules
