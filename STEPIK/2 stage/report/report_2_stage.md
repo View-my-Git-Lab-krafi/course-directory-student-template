@@ -1,177 +1,209 @@
----
-## Front matter
-title: "2 этапа внешних курсов"
-subtitle: "Работа на сервере"
-author: "Рафи Кази ар, НКАбд-03-24"
+# Содержание {#содержание .TOC-Heading}
 
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
-
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
-
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-	- spelling=modern
-	- babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
----
-
-# Цель работы
+# 1 Цель работы
 
 Ознакомиться с функционалом операционной системы Linux.
 
-# Задание
+# 2 Задание
 
-Просмотреть видео и на основе полученной информации пройти тестовые задания.
+Просмотреть видео и на основе полученной информации пройти тестовые
+задания.
 
-# Выполнение лабораторной работы
+# 3 Выполнение лабораторной работы
 
-2 Этап: 
+2 Этап:
 
-![Задание 1](image/1.png){#fig:001 width=70%}
+![Рис. 1: Задание
+1](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId22.png){width="5.833333333333333in"
+height="3.3786023622047243in"}
 
-Удаленный сервер - это компьютер, находящийся в дата-центре, к которому можно получить удаленный доступ через сеть Интернет. 
+Рис. 1: Задание 1
 
-![Задание 2](image/2.png){#fig:002 width=70%}
+Удаленный сервер - это компьютер, находящийся в дата-центре, к которому
+можно получить удаленный доступ через сеть Интернет.
+
+![Рис. 2: Задание
+2](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId24.png){width="5.833333333333333in"
+height="3.1887357830271217in"}
+
+Рис. 2: Задание 2
 
 Только id_rsa.pub, так как он является открытым.
 
-![Задание 3](image/3.png){#fig:003 width=70%}
+![Рис. 3: Задание
+3](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId26.png){width="5.833333333333333in"
+height="4.750351049868766in"}
 
--r = Recursively copy entire directories. Note that scp follows symbolic links encountered in the tree traversal.
+Рис. 3: Задание 3
 
-![Задание 4](image/4.png){#fig:004 width=70%}
+-r = Recursively copy entire directories. Note that scp follows symbolic
+links encountered in the tree traversal.
 
-Проверяем интернет соединение на предмет того, что устройство не может соединиться с сервером, затем проверяем то, знает ли оно вообще о существовании такой программы.
+![Рис. 4: Задание
+4](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId28.png){width="5.833333333333333in"
+height="4.0902209098862645in"}
 
-![Задание 5](image/5.png){#fig:005 width=70%}
+Рис. 4: Задание 4
 
-FileZilla — свободный многоязычный проект, посвящённый приложениям для FTP. 
+Проверяем интернет соединение на предмет того, что устройство не может
+соединиться с сервером, затем проверяем то, знает ли оно вообще о
+существовании такой программы.
 
-![Задание 6](image/6.png){#fig:006 width=70%}
+![Рис. 5: Задание
+5](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId30.png){width="5.833333333333333in"
+height="4.346754155730534in"}
 
-![Задание 7](image/7.png){#fig:007 width=70%}
+Рис. 5: Задание 5
 
-![Задание 8](image/8.png){#fig:008 width=70%}
+FileZilla --- свободный многоязычный проект, посвящённый приложениям для
+FTP.
 
-![Задание 9](image/9.png){#fig:009 width=70%}
+![Рис. 6: Задание
+6](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId32.png){width="5.833333333333333in"
+height="3.2486001749781277in"}
 
--align
-Do full multiple alignment.
+Рис. 6: Задание 6
 
-![Задание 10](image/10.png){#fig:010 width=70%}
+![Рис. 7: Задание
+7](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId34.png){width="5.833333333333333in"
+height="3.565683508311461in"}
 
-Комбинация Ctrl+С - завершает процесс.
-Комбинация Ctrl+Z - приостанавливает процесс.
+Рис. 7: Задание 7
 
-![Задание 11](image/11.png){#fig:011 width=70%}
+![Рис. 8: Задание
+8](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId36.png){width="5.833333333333333in"
+height="3.523662510936133in"}
 
-![Задание 12](image/12.png){#fig:012 width=70%}
+Рис. 8: Задание 8
 
-Если сигнал не перехватывается процессом, процесс уничтожается. Следовательно, это используется для изящного завершения процесса. Команда «kill -9» отправляет сигнал уничтожения для немедленного завершения любого процесса, если он присоединен к PID или имени процесса . Это принудительный способ убить/завершить набор процессов
+![Рис. 9: Задание
+9](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId38.png){width="5.833333333333333in"
+height="4.028645013123359in"}
 
-![Задание 13](image/13.png){#fig:013 width=70%}
+Рис. 9: Задание 9
+
+-align Do full multiple alignment.
+
+![Рис. 10: Задание
+10](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId40.png){width="5.833333333333333in"
+height="4.541185476815398in"}
+
+Рис. 10: Задание 10
+
+Комбинация Ctrl+С - завершает процесс. Комбинация Ctrl+Z -
+приостанавливает процесс.
+
+![Рис. 11: Задание
+11](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId42.png){width="5.833333333333333in"
+height="3.462657480314961in"}
+
+Рис. 11: Задание 11
+
+![Рис. 12: Задание
+12](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId44.png){width="5.833333333333333in"
+height="3.0438123359580054in"}
+
+Рис. 12: Задание 12
+
+Если сигнал не перехватывается процессом, процесс уничтожается.
+Следовательно, это используется для изящного завершения процесса.
+Команда «kill -9» отправляет сигнал уничтожения для немедленного
+завершения любого процесса, если он присоединен к PID или имени процесса
+. Это принудительный способ убить/завершить набор процессов
+
+![Рис. 13: Задание
+13](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId46.png){width="5.833333333333333in"
+height="3.5076607611548556in"}
+
+Рис. 13: Задание 13
 
 Запущенная программа потребляет ресурсы CPU, а остановленная нет.
 
-![Задание 15](image/15.png){#fig:015 width=70%}
+![Рис. 14: Задание
+15](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId48.png){width="5.833333333333333in"
+height="3.6647626859142606in"}
 
-Приостановленное приложение не выполняет новых действий, поэтому не занимает вычислительные ресурсы компьютера (CPU 0%). 
+Рис. 14: Задание 15
 
-![Задание 16](image/16.png){#fig:016 width=70%}
+Приостановленное приложение не выполняет новых действий, поэтому не
+занимает вычислительные ресурсы компьютера (CPU 0%).
 
-![Задание 17](image/17.png){#fig:017 width=70%}
+![Рис. 15: Задание
+16](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId50.png){width="5.833333333333333in"
+height="3.7245406824146983in"}
 
-![Задание 18](image/18.png){#fig:018 width=70%}
+Рис. 15: Задание 16
 
-```
-echo "306174 reads; of these:
-  306174 (100.00%) were unpaired; of these:
-    11 (0.00%) aligned 0 times
-    305580 (99.81%) aligned exactly 1 time
-    583 (0.19%) aligned >1 times
-100.00% overall alignment rate" > bowtie.log
+![Рис. 16: Задание
+17](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId52.png){width="5.833333333333333in"
+height="3.278403324584427in"}
 
-```
+Рис. 16: Задание 17
 
-![Задание 19](image/19.png){#fig:019 width=70%}
+![Рис. 17: Задание
+18](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId54.png){width="5.833333333333333in"
+height="5.328604549431321in"}
 
-![Задание 20](image/20.png){#fig:020 width=70%}
+Рис. 17: Задание 18
+
+    echo "306174 reads; of these:
+      306174 (100.00%) were unpaired; of these:
+        11 (0.00%) aligned 0 times
+        305580 (99.81%) aligned exactly 1 time
+        583 (0.19%) aligned >1 times
+    100.00% overall alignment rate" > bowtie.log
+
+![Рис. 18: Задание
+19](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId56.png){width="5.833333333333333in"
+height="3.5962773403324584in"}
+
+Рис. 18: Задание 19
+
+![Рис. 19: Задание
+20](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId58.png){width="5.833333333333333in"
+height="4.703613298337708in"}
+
+Рис. 19: Задание 20
 
 exit завершает работу tmux
 
-![Задание 21](image/21.png){#fig:021 width=70%}
+![Рис. 20: Задание
+21](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId60.png){width="5.833333333333333in"
+height="2.341421697287839in"}
 
-Мы заходили на сервер с терминала, который и закрыли, а tmux будет продолжать свою работу на сервере.
+Рис. 20: Задание 21
 
-![Задание 22](image/22.png){#fig:022 width=70%}
+Мы заходили на сервер с терминала, который и закрыли, а tmux будет
+продолжать свою работу на сервере.
 
-Ещё будет предупреждение о том, что работа завершится. Запущенный процесс во вкладке, конечно же, при её закрытии, пропадёт.
+![Рис. 21: Задание
+22](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId62.png){width="5.833333333333333in"
+height="2.5148140857392827in"}
 
-![Задание 23](image/23.png){#fig:023 width=70%}
+Рис. 21: Задание 22
+
+Ещё будет предупреждение о том, что работа завершится. Запущенный
+процесс во вкладке, конечно же, при её закрытии, пропадёт.
+
+![Рис. 22: Задание
+23](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId64.png){width="5.833333333333333in"
+height="3.5440496500437444in"}
+
+Рис. 22: Задание 23
 
 Ctrl+b c - создать новое окно;
 
-![Задание 24](image/24.png){#fig:024 width=70%}
+![Рис. 23: Задание
+24](/home/krafi/Documents/study_2024-2025_os-intro-master/course-directory-student-template/course-directory-student-template/STEPIK/2 stage/report/report_2_stage_media/media/rId66.png){width="5.833333333333333in"
+height="2.22592738407699in"}
+
+Рис. 23: Задание 24
 
 Можно закрыть одно из делений вкладки выполнив команды Ctrl+B и Х.
 
-# Выводы
+# 4 Выводы
 
-Я просмотрела курс и освежила в памяти навыки работы с более сложными командами в Линукс.
+Я просмотрела курс и освежила в памяти навыки работы с более сложными
+командами в Линукс.
 
-# Список литературы{.unnumbered}
-
-
-::: {#refs}
-:::
+# Список литературы
