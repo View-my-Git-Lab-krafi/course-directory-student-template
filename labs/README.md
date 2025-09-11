@@ -122,3 +122,48 @@
 - GitLab: https://gitlab.com/krafi/course-directory-student-template/-/tree/master/labs/lab10/report
 
 ---
+
+## Лабораторная работа № 11: Текстовой редактор emacs
+**Видеоматериалы:**
+- Rutube: https://rutube.ru/video/1a245f991fd7fed3d5e831870648e9ae/
+- Plvideo: https://plvideo.ru/watch?v=Jk8LmN-pQx29
+
+**Отчёты:**
+- GitHub: https://github.com/View-my-Git-Lab-krafi/course-directory-student-template/tree/master/labs/lab11/report
+- GitLab: https://gitlab.com/krafi/course-directory-student-template/-/tree/master/labs/lab11/report
+
+---
+
+## Лабораторная работа № 12: Программирование в командном процессоре ОС UNIX. Командные файлы
+**Видеоматериалы:**
+- Rutube: https://rutube.ru/video/5d828bed5c77552bdf5887c51452fd3f/
+- Plvideo: https://plvideo.ru/watch?v=Wz3TnR-bCd47
+
+**Отчёты:**
+- GitHub: https://github.com/View-my-Git-Lab-krafi/course-directory-student-template/tree/master/labs/lab12/report
+- GitLab: https://gitlab.com/krafi/course-directory-student-template/-/tree/master/labs/lab12/report
+
+---
+
+## Лабораторная работа № 13: Программирование в командном процессоре ОС UNIX. Ветвления и циклы
+**Видеоматериалы:**
+- Rutube: https://rutube.ru/video/4e1ce39b4ab6bb4c0c5084b3091da0d7/
+- Plvideo: https://plvideo.ru/watch?v=Bv2CfG-sFm13
+
+**Отчёты:**
+- GitHub: https://github.com/View-my-Git-Lab-krafi/course-directory-student-template/tree/master/labs/lab13/report
+- GitLab: https://gitlab.com/krafi/course-directory-student-template/-/tree/master/labs/lab13/report
+
+---
+
+## Лабораторная работа № 14: Программирование в командном процессоре ОС UNIX. Расширенное программирование
+**Видеоматериалы:**
+- Rutube: https://rutube.ru/video/d4c9295fe10ca66ba6cc285eb902ee72/
+- Plvideo: https://plvideo.ru/watch?v=Ls1AfT-dVr92
+
+**Отчёты:**
+- GitHub: https://github.com/View-my-Git-Lab-krafi/course-directory-student-template/tree/master/labs/lab14/report
+- GitLab: https://gitlab.com/krafi/course-directory-student-template/-/tree/master/labs/lab14/report
+
+---
+
